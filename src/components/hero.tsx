@@ -15,10 +15,10 @@ export default function Hero() {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-perfume via-white to-sail opacity-70" />
 
-      <div className="relative pt-24 pb-32 sm:pt-32 sm:pb-40">
+      <div className="relative pt-16 sm:pt-24 md:pt-32 pb-24 sm:pb-32 md:pb-40">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl sm:text-6xl font-bold text-governor-bay mb-8 tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-governor-bay mb-4 sm:mb-6 md:mb-8 tracking-tight leading-tight">
               Transform Screen Recordings into{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-violet to-cornflower-blue">
                 Magical
@@ -26,13 +26,13 @@ export default function Hero() {
               Demos
             </h1>
 
-            <p className="text-xl text-kimberly mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl text-kimberly mb-4 sm:mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed">
               The upcoming macOS app that combines Loom-like sharing with
               powerful built-in editing features including animations,
               transitions, and zooms - all in one intuitive package.
             </p>
 
-            <div className="max-w-md mx-auto mb-12">
+            <div className="max-w-md mx-auto mb-8 sm:mb-10 md:mb-12">
               <EmailCapture />
             </div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
               </Link>
             </div>
 
-            <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-left max-w-3xl mx-auto">
+            <div className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-left max-w-3xl mx-auto">
               <div className="flex items-start gap-3">
                 <Video className="w-6 h-6 text-electric-violet mt-1 flex-shrink-0" />
                 <div>

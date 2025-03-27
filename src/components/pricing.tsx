@@ -1,7 +1,15 @@
+"use client";
+
 import { Check } from "lucide-react";
 import { Button } from "./ui/button";
 
 export default function Pricing() {
+  const handleGetStarted = () => {
+    alert(
+      "Thank you for your interest in Screenshow! Please join our waitlist and we'll send you the pricing checkout page once we launch the app."
+    );
+  };
+
   return (
     <section id="pricing" className="py-24 bg-white">
       <div className="container mx-auto px-4">
@@ -51,7 +59,10 @@ export default function Pricing() {
               </div>
             </div>
 
-            <Button className="w-full bg-electric-violet hover:bg-cornflower-blue text-white">
+            <Button 
+              onClick={handleGetStarted}
+              className="w-full bg-electric-violet hover:bg-cornflower-blue text-white"
+            >
               Get Started
             </Button>
           </div>
@@ -93,7 +104,10 @@ export default function Pricing() {
               </div>
             </div>
 
-            <Button className="w-full bg-electric-violet hover:bg-cornflower-blue text-white">
+            <Button 
+              onClick={handleGetStarted}
+              className="w-full bg-electric-violet hover:bg-cornflower-blue text-white"
+            >
               Get Started
             </Button>
           </div>
@@ -132,7 +146,10 @@ export default function Pricing() {
               </div>
             </div>
 
-            <Button className="w-full bg-electric-violet hover:bg-cornflower-blue text-white">
+            <Button 
+              onClick={handleGetStarted}
+              className="w-full bg-electric-violet hover:bg-cornflower-blue text-white"
+            >
               Get Started
             </Button>
           </div>
