@@ -63,18 +63,18 @@ export default function EmailCapture() {
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="w-full">
-          <div className="flex flex-col sm:flex-row gap-2 shadow-lg rounded-lg overflow-hidden">
+          <div className="flex flex-col sm:flex-row shadow-lg rounded-lg overflow-hidden">
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="px-4 py-3 flex-grow text-kimberly focus:outline-none focus:ring-2 focus:ring-electric-violet border-0"
+              className="px-4 py-3 flex-grow text-kimberly focus:outline-none focus:ring-2 focus:ring-electric-violet border-0 h-[52px]"
               required
             />
             <Button
               type="submit"
-              className="px-6 py-3 bg-electric-violet text-white rounded-none hover:bg-cornflower-blue transition-colors font-medium"
+              className="px-6 bg-electric-violet text-white rounded-none hover:bg-cornflower-blue transition-colors font-medium h-[52px] whitespace-nowrap"
               disabled={loading}
             >
               {loading ? "Joining..." : "Join Waitlist"}
