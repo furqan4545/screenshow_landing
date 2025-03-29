@@ -168,17 +168,17 @@ export default async function Home() {
               {
                 question: "When will Screenshow be available?",
                 answer:
-                  "We're currently in private beta and plan to launch publicly in Q3 2023. Join our waitlist to be notified when we launch.",
+                  "We're currently in development stage, expect to be available by June 2025.",
               },
               {
                 question: "Will Screenshow be available for Windows?",
                 answer:
-                  "We're focusing on macOS for our initial release, but we plan to support Windows in the future.",
+                  "We're focusing on macOS for our initial release, but we plan to support Windows in the future. Probably by the end of August 2025.",
               },
               {
                 question: "How much will Screenshow cost?",
                 answer:
-                  "We'll offer both free and premium plans. Waitlist members will receive special launch pricing.",
+                  "We'll offer both free and premium plans. Waitlist members will receive special launch pricing via email.",
               },
               {
                 question: "Can I use Screenshow for commercial purposes?",
